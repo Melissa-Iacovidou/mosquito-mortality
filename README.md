@@ -41,7 +41,7 @@ The code is written in **Julia** and requires the following packages:
 - _ParameterFitting.jl_ - Fits the data to all the functions. Exports all the functions and fitted variables (with and without errors) needed for the plots in _SurvivalMortalityPlots.jl_ and _VectorialCapacityPlots.jl_. 
 - _VCCalculations.jl_ - Exports all the functions used in the four steps for the calculation of the vectorial capacity, in addition to the calculation of the percentage decrease between the two treatments. These are used in plotting the various figures in _VectorialCapacityPlots.jl_.
 
-**Plots**
+**Plotting**
 - _InitialDataPlots.jl_ - Plots the figures that can be found in the Supporting information and the initial data figure with all the replicates added together.
 - _SurvivalMortalityPlots.jl_ - Plots the various survival and mortality figures found in the paper using the module _ParameterFitting.jl_.
 - _VectorialCapacityPlots.jl_ - Plots the figures for the calculations in steps 1-4 regarding the vectorial capacity.
