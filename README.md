@@ -49,6 +49,6 @@ The code is written in **Julia** and requires the following packages:
 In addition, a Mathematica file (_ErlangEIP.nb_) is included where the values for the EIP distribution variables are obtained, which are used in the calculations.
 
 ### Notes
-⚠️ For the code to run one must download the data from the Supporting information and edit the relevant lines in ParameterFitting.jl & InitialDataPlots.jl.
+⚠️ For the code to run one must download the data from the Supporting information and edit the relevant lines in _ParameterFitting.jl_ & _InitialDataPlots.jl_.
 
 ⚠️ The plots are further edited using **Inkscape**, hence there may be some discrepancies in the visual appearance of the figures.
