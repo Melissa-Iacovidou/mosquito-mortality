@@ -1,6 +1,6 @@
 module VCCalculations
 
-export surviving_EIP, no_bites, bites_age, expected_bites, VectorialCapacity, TreatmentDecrease
+export surviving_EIP, no_bites, bites_age, expected_bites, TreatmentDecrease
 
 using QuadGK, Cuba
 
@@ -244,8 +244,7 @@ function expected_bites(μ, case, EIPdistribution; σ = σ, α = α, λ = λ, K 
 end
 
 
-# Vectorial Capacity and percentage decreased
-
+# Vectorial Capacity reduction
 function TreatmentDecrease(VC_control, VC_treated)
     reduction = VC_treated ./ VC_control .* 100
     return reduction
