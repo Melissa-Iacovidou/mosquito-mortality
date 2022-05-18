@@ -18,20 +18,24 @@ The code is written in **Julia** and requires the following packages:
 <td>
   <p> XLSX.jl </p>
   <p> Plots.jl </p>
-  <p> DataFrames.jl </p>
 </td>
 <td>
   <p> Survival.jl </p>
+  <p> DataFrames.jl </p>
+</td>
+<td>
   <p> Optim.jl </p>
   <p> Distributions.jl </p>
 </td>
 <td>
   <p> Measurements.jl </p>
   <p> LinearAlgebra.jl </p>
-  <p> Random.jl </p>
 </td>
 <td>
+  <p> Random.jl </p>
   <p> Statistics.jl </p>
+</td>
+<td>
   <p> LaTeXStrings.jl </p>
   <p> StatsPlots.jl </p>
 </td>
